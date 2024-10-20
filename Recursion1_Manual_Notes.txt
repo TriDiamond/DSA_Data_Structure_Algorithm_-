@@ -1,0 +1,35 @@
+3 Magical Steps
+* Assuming the work of Function
+* Find ans of Main Question(assumption) using sub Problem
+*Stop the smallest Sub Problem
+
+Example Sum of N Natural Number
+Assumption
+Work of function return sum of Natural Number
+Main Logic 
+sum(N) = sum(N-1) + N;
+Base Case
+if(N == 0){
+return 0
+}
+
+Remember Points 
+While Doing recursion whatever written down in Function 
+it work after base completed
+Like Print increasing Number
+or print Decreasing Number
+
+recursion -> call function one by one till reaches to base
+then its down one by one
+
+Euler Digram
+For call stack tracing is difficult if 2 function call initialized 
+at the time we go to euler diagram
+Time Complexity
+
+Space Complexity
+0(n) -> at the moment is not greater than n then its wiped down
+Time complexity
+ ->if 2 calls means its go like gp 2^0+2^1....+2^n-1
+  Time complexity is 2^n
+
